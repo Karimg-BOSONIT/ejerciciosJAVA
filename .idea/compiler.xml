@@ -8,10 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="block1-expression-evaluator" />
-        <module name="block5-command-line-runner" />
         <module name="block3-create-repo-git" />
-        <module name="block5-properties" />
         <module name="block3-maven-package" />
+      </profile>
+      <profile name="Annotation profile for block5-command-line-runner" enabled="true">
+        <sourceOutputDir name="../../../Desktop/Ejercicios/spring/block5-command-line-runner/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../Desktop/Ejercicios/spring/block5-command-line-runner/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="block5-command-line-runner" />
+      </profile>
+      <profile name="Annotation profile for block5-properties" enabled="true">
+        <sourceOutputDir name="../../../Desktop/Ejercicios/spring/block5-properties/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../Desktop/Ejercicios/spring/block5-properties/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="block5-properties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

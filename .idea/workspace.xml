@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf4577e-5a91-439a-a98e-8a3437241cce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block5-properties/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/block5-properties/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block1-expression-evaluator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/block1-expression-evaluator/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -49,7 +50,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/karim.gonzalez/Desktop/Ejercicios/spring/block5-properties",
+    "last_opened_file_path": "C:/Users/karim.gonzalez/Desktop/Ejercicios/spring/block5-logging",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }

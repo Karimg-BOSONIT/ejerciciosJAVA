@@ -1,0 +1,19 @@
+En este archivo de configuración se están definiendo dos "appenders":
+que son componentes de Logback que se encargan de enviar los registros a un destino específico.
+El primer appender, llamado "CONSOLE", envía los registros a la consola
+El segundo appender, llamado "FILE", envía los registros a un archivo de log llamado "error.log".
+
+También se están definiendo dos "filters":
+que son componentes de Logback que se utilizan para filtrar los registros que se envían a un appender específico.
+El primer filter, llamado "LevelFilter",
+permite que solo los registros de nivel "ERROR" o superior se envíen al appender "CONSOLE".
+El segundo filter, llamado "ThresholdFilter",
+permite que solo los registros de nivel "ERROR" o superior se envíen al appender "FILE".
+
+Por último, se están definiendo dos "roots":
+que son componentes de Logback que se utilizan para especificar el nivel de log que se debe enviar a un appender específico.
+El primer "root" establece que solo los registros de nivel "ERROR" deben enviarse al appender "FILE".
+El segundo "root" establece que solo los registros de nivel "INFO" deben enviarse al appender "CONSOLE".
+
+Update:
+Añadido tercer appender para Trace
