@@ -12,9 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="block1-expression-evaluator" target="19" />
-      <module name="block3-create-repo-git" target="19" />
-      <module name="block3-maven-package" target="19" />
+      <module name="block3-maven-packagesss" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>

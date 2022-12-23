@@ -1,0 +1,2 @@
+Para ejecutar el jar hay que utilizar la ruta absoluta, en mi caso:
+java -jar C:\Users\karim.gonzalez\IdeaProjects\Karim-Gonzalez-Repo\block3-maven-package\target\block3-maven-package-1.0-SNAPSHOT.jar

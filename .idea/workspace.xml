@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf4577e-5a91-439a-a98e-8a3437241cce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block1-expression-evaluator/block1-expression-evaluator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block1-expression-evaluator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/block1-expression-evaluator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-create-repo-git/block3-create-repo-git.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-create-repo-git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/block3-create-repo-git/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/block3-maven-package.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/block3-maven-package/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/block3-maven-package/target/classes/org/example/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +33,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProblemsViewState">
@@ -39,11 +65,33 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/karim.gonzalez/IdeaProjects/Karim-Gonzalez-Repo/block3-maven-package",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="block3-maven-package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
