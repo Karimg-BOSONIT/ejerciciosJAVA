@@ -1,0 +1,12 @@
+.Una vez cargado el proyecto hay que compilarlo una vez al menos.
+.Vamos a la pestaña "run" y a Edit configurations.
+.Seleccionamos el perfil del proyecto.
+.Le damos a modify options.
+.Escribimos: -Dspring.profiles.active=pro  (las VM options siempre llevan -D delante)
+*Podemos conseguir el mismo resultado si en vez de seleccionar VM options,
+escribimos spring_profiles_active=pro en la caja de texto -
+Environment variables en la Run Configuration.
+
+.En los archivos de configuracion yml debemos de cambiar -
+el texto de spring.profile.active por uno personalizado
+porque sino daba error. en mi caso perfil.active

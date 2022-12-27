@@ -1,0 +1,4 @@
+perfil:
+  active: PRODUCTION
+bd:
+  url: pro.bosonit.com:5432
