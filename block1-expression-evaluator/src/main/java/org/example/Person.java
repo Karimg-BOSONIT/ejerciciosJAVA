@@ -41,10 +41,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", town='" + town + '\'' +
-                ", age=" + age +
-                '}';
+        return "Person" +
+                " name: " + name + " --" +
+                " Town: " + town + " --" +
+                " Age: " + age;
     }
 }

@@ -27,49 +27,80 @@ public class Main {
         }
     }
 
+    /*
+    COMENTAR Y DESCOMENTAR LOS SOUTS
+    PARA VER EL RESULTADO ESPERADO SEGUN
+    EL APARTADO DEL EJERCICIO
+     */
+
     public static void filtrarEdad(ArrayList<Person> Personas){
+//----------------------------APARTADO A----------------------------------------------------
         List<Person> listPersonFiltrada = Personas.stream()
                 .filter(persona -> persona.getAge() < 25 && persona.getAge() != 0).collect(Collectors.toList());
 
-        List<Person> empiezaPorA = Personas.stream()
-                .filter(person -> !person.getName().startsWith("A")).collect(Collectors.toList());
+        // listPersonFiltrada.forEach(System.out::println);   //Este muestra las personas menores de 25
 
+//----------------------------APARTADO B----------------------------------------------------
+        List<Person> empiezaPorA = Personas.stream()
+                .filter(person -> !person.getName().startsWith("A"))
+                .collect(Collectors.toList());
+
+        // empiezaPorA.stream().forEachOrdered(person -> System.out.println(person));
+
+//----------------------------APARTADO C----------------------------------------------------
         Optional<Person> townIsMadrid = Personas.stream()
                 .filter(person -> person.getTown().equals("Madrid")).findFirst();
 
+        String resultadoMadrid;
+
+        if (townIsMadrid.isPresent()) {
+            resultadoMadrid = townIsMadrid.get().toString();
+
+            //System.out.println(resultadoMadrid);  // Apart. C: Para mostrar las personas de Madrid
+
+        }
+
+//----------------------------APARTADO D----------------------------------------------------//------------------------------------------------------------------------------------------------
         Optional<Person> townIsBarcelona = Personas.stream()
                 .filter(person -> person.getTown().equals("Barcelona")).findFirst();
 
-        //listPersonFiltrada.forEach(System.out::println);   //Este muestra las personas filtradas
+        String resultadoBarcelona;
+
+        if (townIsBarcelona.isPresent()){
+            resultadoBarcelona = townIsBarcelona.get().toString();
+
+            // System.out.println(resultadoBarcelona); // Apart. D: Primera persona de Barcelona
+
+        };
+
+//----------------------------LISTA COMPLETA-------------------------------------------------
 
         for(Person persona: Personas){
+            System.out.println(persona.toString()); // Este los muestra todos
 
-            if (persona.getName() == null){
-                persona.setName("Unknow");
-            }
-            if (persona.getTown() == null){
-                persona.setTown("Unknow");
-            }
-
-            System.out.println(persona.toString() + " Primer punto del ejercicio"); // Este los muestra todos
         }
 
     }
 
+//--------------------------------------------------------------------------------------
     private static Person createPerson (String infoPersonas){
         Person person = new Person();
 
-        String[] datosPersona = infoPersonas.split(":");
+        String[] datosPersona;
 
-        person.setName(datosPersona[0]);
-        person.setTown(datosPersona[1]);
-        person.setAge ((datosPersona.length < 3) ? 0 : Integer.parseInt(datosPersona[2]));
+        if(infoPersonas != null){
+            datosPersona = infoPersonas.split(":");
 
-        ArrayList<Person> arrayPersonas = new ArrayList<>();
-        arrayPersonas.add(person);
+            person.setName(datosPersona[0]);
+            person.setTown((datosPersona[1] != "" ? datosPersona[1] : "Unknown"));
+            person.setAge ((datosPersona.length < 3) ? 0 : Integer.parseInt(datosPersona[2]));
 
-        filtrarEdad(arrayPersonas);
-        revisarCodigo(infoPersonas);
+            ArrayList<Person> arrayPersonas = new ArrayList<>();
+            arrayPersonas.add(person);
+
+            filtrarEdad(arrayPersonas);
+            revisarCodigo(infoPersonas);
+        }
 
         // System.out.println(person.toString());
         return person;
