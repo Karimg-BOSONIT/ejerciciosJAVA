@@ -63,7 +63,7 @@ public class PersonaController {
         return new ResponseEntity<>(personas, HttpStatus.OK);
     }
 
-    @ExceptionHandler(Exception.class)
+    @ExceptionHandler(Exception.class) //No seguro si funciona
     public ResponseEntity<Void> handleException(Exception e) {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }

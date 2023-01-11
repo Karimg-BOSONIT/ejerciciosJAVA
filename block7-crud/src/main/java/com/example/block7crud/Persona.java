@@ -17,4 +17,5 @@ public class Persona {
         this.town = town;
         this.id = id;
     }
+
 }

@@ -17,7 +17,7 @@ public class Controlador {
         return servicio.addPersona(info);
     }
 
-    //Conseguir la id de un user
+    //Conseguir la id de un user, retorna la id que se ponga
     @GetMapping("/user/{id}")
     public int showId(@PathVariable int id){
         return id;
